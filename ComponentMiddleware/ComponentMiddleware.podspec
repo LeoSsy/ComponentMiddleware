@@ -6,9 +6,9 @@ s.summary      = "通用设置页面cell,可以灵活扩展,多种样式可配�
 
 s.homepage     = "https://github.com/LeoSsy" # 你的主页
 s.source       = { :git => "https://github.com/LeoSsy/BLSettingCell.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
-s.source_files = 'ComponentMiddlewareLib/Scheduler/**/*.{h,m}' # 你代码的位置
-s.public_header_files = 'ComponentMiddlewareLib/Scheduler/**/*.{h}' # 你代码的位置
-s.resource     = 'BLSettingCell/BLSetting.bundle'
+s.source_files = 'ComponentMiddlewareLib/Scheduler/*.{h,m}' # 你代码的位置
+s.public_header_files = 'ComponentMiddlewareLib/Scheduler/*.{h}' # 你代码的位置
+#s.resource     = 'BLSettingCell/BLSetting.bundle'
 s.requires_arc = true # 是否启用ARC
 s.platform     = :ios, "8.0" #平台及支持的最低版本
 s.frameworks   = "UIKit", "Foundation" #支持的框架
