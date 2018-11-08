@@ -1,31 +1,22 @@
 Pod::Spec.new do |s|
-s.name             = 'ComponentScheduler'
-s.version          = '0.0.1'
-s.summary          = 'iOS组件化开发模块调度中心'
+s.name         = "BLSettingCell" # 项目名称
+s.version      = "1.0.2"        # 版本号 与 你仓库的 标签号 对应
+s.license      = "MIT"          # 开源证书
+s.summary      = "通用设置页面cell,可以灵活扩展,多种样式可配置" # 项目简介
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+s.homepage     = "https://github.com/LeoSsy" # 你的主页
+s.source       = { :git => "https://github.com/LeoSsy/BLSettingCell.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
+s.source_files = 'ComponentMiddlewareLib/Scheduler/**/*.{h,m}' # 你代码的位置
+s.public_header_files = 'ComponentMiddlewareLib/Scheduler/**/*.{h}' # 你代码的位置
+s.resource     = 'BLSettingCell/BLSetting.bundle'
+s.requires_arc = true # 是否启用ARC
+s.platform     = :ios, "8.0" #平台及支持的最低版本
+s.frameworks   = "UIKit", "Foundation" #支持的框架
 
-s.description      = <<-DESC
-TODO: Add long description of the pod here.
-DESC
-
-s.homepage         = 'https://github.com/LeoSsy'
-s.license          = "MIT"
-s.author           = { 'guangqiang' => '781739973@qq.com' }
-s.source           = { :git => 'https://github.com/LeoSsy/ComponentMiddleware.git', :tag => s.version.to_s }
-
-s.platform         = :ios, "8.0"
-
-s.requires_arc     = true
-
-s.default_subspec = 'Code'
-
-s.subspec 'Code' do |ss|
-ss.source_files = "ComponentMiddlewareLib/Scheduler/**/*.{h,m}"
+# User
+s.author             = { "BY" => "781739973@qq.com" } # 作者信息
+s.social_media_url   = "https://github.com/LeoSsy" # 个人主页
 end
 
-end
+
+
