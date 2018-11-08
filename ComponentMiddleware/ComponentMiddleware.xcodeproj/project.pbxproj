@@ -15,7 +15,7 @@
 		043BF9B62193D25900BBC6E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BF9B52193D25900BBC6E4 /* main.m */; };
 		043BF9C02193D25900BBC6E4 /* ComponentMiddlewareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BF9BF2193D25900BBC6E4 /* ComponentMiddlewareTests.m */; };
 		043BF9CB2193D25900BBC6E4 /* ComponentMiddlewareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BF9CA2193D25900BBC6E4 /* ComponentMiddlewareUITests.m */; };
-		043BFA5D2194054D00BBC6E4 /* ComponentMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BFA5B2194054D00BBC6E4 /* ComponentMiddleware.m */; };
+		043BFA6021940A2700BBC6E4 /* ComponentScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BFA5F21940A2700BBC6E4 /* ComponentScheduler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		043BF9C62193D25900BBC6E4 /* ComponentMiddlewareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComponentMiddlewareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043BF9CA2193D25900BBC6E4 /* ComponentMiddlewareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentMiddlewareUITests.m; sourceTree = "<group>"; };
 		043BF9CC2193D25900BBC6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		043BFA5B2194054D00BBC6E4 /* ComponentMiddleware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentMiddleware.m; sourceTree = "<group>"; };
-		043BFA5C2194054D00BBC6E4 /* ComponentMiddleware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentMiddleware.h; sourceTree = "<group>"; };
+		043BFA5E21940A2700BBC6E4 /* ComponentScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComponentScheduler.h; path = ComponentMiddlewareLib/ComponentScheduler.h; sourceTree = SOURCE_ROOT; };
+		043BFA5F21940A2700BBC6E4 /* ComponentScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComponentScheduler.m; path = ComponentMiddlewareLib/ComponentScheduler.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +139,8 @@
 		043BFA5A2194054D00BBC6E4 /* ComponentMiddlewareLib */ = {
 			isa = PBXGroup;
 			children = (
-				043BFA5B2194054D00BBC6E4 /* ComponentMiddleware.m */,
-				043BFA5C2194054D00BBC6E4 /* ComponentMiddleware.h */,
+				043BFA5E21940A2700BBC6E4 /* ComponentScheduler.h */,
+				043BFA5F21940A2700BBC6E4 /* ComponentScheduler.m */,
 			);
 			path = ComponentMiddlewareLib;
 			sourceTree = "<group>";
@@ -279,7 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043BF9AB2193D25900BBC6E4 /* ViewController.m in Sources */,
-				043BFA5D2194054D00BBC6E4 /* ComponentMiddleware.m in Sources */,
+				043BFA6021940A2700BBC6E4 /* ComponentScheduler.m in Sources */,
 				043BF9B62193D25900BBC6E4 /* main.m in Sources */,
 				043BF9A82193D25900BBC6E4 /* AppDelegate.m in Sources */,
 			);
